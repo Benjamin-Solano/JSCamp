@@ -1,1 +1,1 @@
-<h1> CURSO FULLSTACKOPEN </h1>
+<h1> <center> Curso FullStack Open </center> </h1>
