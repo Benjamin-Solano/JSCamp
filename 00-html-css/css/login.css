@@ -4,43 +4,55 @@ body {
    background-color: #302f2c;
 }
 
-
-nav ul {
-   color: white;
+header {
    background-color: #efede3;
-   padding: 5px;
-   margin: 0;
-   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+   padding: 10px 0;
+   box-shadow: 0 4px 7px rgb(0, 0, 0);
+}
+
+nav {
    display: flex;
    align-items: center;
    justify-content: center;
-   border-radius: 5px;
+   gap: 20px;
 }
 
-nav ul a {
-   color: #302f2c;
+nav ul {
+   align-items: center;
+   justify-content: center;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   gap: 20px;
+}
+
+nav a {
    text-decoration: none;
-   margin: 0 15px;
-   padding: 8px 12px;
-   border-radius: 4px;
+   color: #302f2c;
    font-weight: bold;
+   padding: 10px;
+   border-radius: 5px;
+   font-size: 15px;
 }
 
-nav ul a:hover {
-   background-color: #302f2c;
+nav a:hover {
    color: #efede3;
+   background-color: #302f2c;
    transition: 0.5s;
 }
 
 .login-container {
-   justify-content: center;
    text-align: center;
    width: 300px;
    margin: 100px auto;
    padding: 10px;
    background-color: #efede3;
    border-radius: 10px;
+   box-shadow: 0 5px 10px rgb(0, 0, 0);
 }
+
+
 
 .boton {
    background-color: #302f2c;
@@ -56,6 +68,7 @@ nav ul a:hover {
    background-color: #6b6a67;
    padding: 15px 25px;
    transition: 0.6s;
+
 }
 
 input[type="text"],
