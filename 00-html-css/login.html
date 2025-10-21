@@ -4,13 +4,14 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/login.css">
    <title>Log in</title>
 </head>
 
 <body>
 
-   <header>
 
+   <header>
       <nav>
          <ul>
             <img src="./imgs/bannerIcon.png" href="/00-html-css/login.html" alt="icono de banner" width="30">
@@ -19,24 +20,26 @@
             <a href="contact.html">Contact</a>
          </ul>
       </nav>
-
-
    </header>
 
 
    <main>
-      <h1>Inicio de Sesión</h1>
-      <form action="/00-html-css/login.html" method="POST">
-         <img src="./imgs/userIcon.png" alt="icono de usuario" width="20">
-         <input type="text" id="username" name="username" placeholder="usuario" required>
-         <br><br>
-         <img src="./imgs/passwordIcon.png" alt="icono de contraseña" width="20">
-         <input type="password" id="password" name="password" placeholder="contraseña" required>
-         <br><br>
-         <button type="submit">Iniciar</button>
-      </form>
-   </main>
+      <div class="login-container">
+         <img src="./imgs/userIcon.png" alt="icono de usuario" width="30">
+         <h1>Inicio de Sesión</h1>
+         <form action="/00-html-css/login.html" method="POST">
+            <img src="./imgs/userIcon.png" alt="icono de usuario" width="20">
 
+            <input type="text" id="username" name="username" placeholder="usuario" required>
+            <br><br>
+            <img src="./imgs/passwordIcon.png" alt="icono de contraseña" width="20">
+
+            <input type="password" id="password" name="password" placeholder="contraseña" required>
+            <br><br><br>
+            <button class="boton" type="submit">Iniciar</button>
+         </form>
+      </div>
+   </main>
 
 
    <footer>
@@ -46,6 +49,7 @@
          </p>
       </small>
    </footer>
+
 
 </body>
 
